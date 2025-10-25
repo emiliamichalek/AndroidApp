@@ -1,0 +1,73 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+
+# === IDE files ===
+*.iml
+.idea/
+!.idea/codeStyles/
+!.idea/runConfigurations/
+!.idea/inspectionProfiles/
+
+# === Gradle build ===
+.gradle/
+build/
+**/build/
+.cxx/
+.externalNativeBuild/
+captures/
+
+# === Local configuration ===
+local.properties
+.DS_Store
+Thumbs.db
+
+# === Gradle Wrapper (keep these) ===
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+!gradlew
+!gradlew.bat
+
+# === Signing keys and secrets (NEVER commit) ===
+*.jks
+*.keystore
+*.key
+*.pem
+*.p12
+*.pfx
+*.properties
+signing.properties
+keystore.properties
+
+# === Build artifacts ===
+*.apk
+*.aab
+*.ap_
+/app/outputs/
+/**/outputs/
+
+# === Misc caches & logs ===
+*.log
+*.tmp
+*.orig
+*.rej
+
+# === Android Lint ===
+/lint/tmp/
+
+# === OS junk ===
+ehthumbs.db
+Desktop.ini
